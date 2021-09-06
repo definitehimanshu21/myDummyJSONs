@@ -1,0 +1,97 @@
+{
+  "eventType" : "InboundAdvancedShipmentNotification",
+  "dc": "DC1", 
+  "supplierTimestamp": "2021-05-06T12:12:23Z",                      // The timestamp from the original Supplier ASN message
+  "timestamp": "2021-05-06T12:19:23Z",                              // The timestamp for the VEX message
+  "supplierMessageId": "005056B98E831EDBAA837EC916A3AD61",          // The original messageId of the supplier message received by VEX
+  "brandCode": "12",
+  "brand": "Gucci",
+  "content": {
+    "urgentID": "N",
+    "deliveryDate": "20210421",
+    "supplierDocType": "ASN",
+    "isCancelled": "false",
+    "vendorInfos": {
+      "vendorNumber": "L00125",
+      "vendorName": "Luxury Goods International Sa",
+      "vendorAddress": "",
+      "vendorZip": "",
+      "vendorCity": "",
+      "vendorCountry": "",
+      "vendorFamily": "",
+    },
+    "carrierCode": "", 
+    "trailerID": "",
+    "apptNo": "",
+    "apptDate": "",
+    "chinaDocNumber": "",
+    "supplierDocNumber": "0180197890",
+    "supplierDocumentDate": "20210421",
+    "supplierWhsCode": "1186",
+    "country": "",
+    "dropShipment": "",
+    "externalId": "2021N14135",
+    "billOfLanding": "2021N14135",
+    "childITCNumber": "",
+    "items": [
+      {
+        "referenceItemNumber": "000001",
+        "supplierPurchaseOrderNumber": "4500166610",
+        "supplierSkuCode": "8075106522",
+        "quantity": "4.000",
+        "suppplierBatchNumber": "",
+        "stealthOrder": "",
+        "supplierStockType": "",
+        "supplierStorceCode": "",
+        "stealthTarifCode": "",
+        "itemProductionDate": "",
+        "site": "1186",
+        "storageLocation": "1000",
+        "supplierShipmentID": "",
+        "supplierLabelNumber": "",
+        "cartonNumber": "",
+        "itemLine": "000010",          
+        "madeIn": "",
+        "qcQty": "",
+        "lockCode": "",
+        "lockedQty": "",
+        "notes": [{"note": ""}, ],
+        "pieces": [{"pieceSerialNb": ""}, ],
+        "vas": [
+            {
+                "vasServicesType": "",
+                "vasSubService": "",
+                "vas1": "",
+                "vas2": "",
+                "vas3": "",
+                "vasLongText": ""
+            }
+        ],
+        "channel": "MRP",                                           // Channel from the YNAP Purchase Order
+        "ynapPONumber": "2356etgrt235",                                // The YNAP PO Number
+        "po-UUID": "9938f72b-cfcf-4c94-a4e7-3f4a21fa1274",          // This is the YNAP Purchase Order UUID
+        "gtin": "4770018581258",                                     // YNAP Gtin
+        "stockOrderItemID": "9938f72b-cfcf-4c94-a4e7-3f4a21fa1274" // This is the Stock Order Item UUID from the YNAP PO
+       }
+    ],
+    "handlingUnit": [
+       {
+        "externalIdHU": "225001300072924478",
+        "externalId2HU": "",
+        "deliveryLineNumber": "000010",
+        "articleNumber": "8075106522",
+        "boxQty": "4.000",
+        "specialStockNumber": "",
+        "siteHU": "004",
+        "storageLocationHU": "1000",
+        "isUrgentHU": "",
+        "priorityHU": "",
+        "cartonNumberHU": "",
+        "typeHU": "",
+        "volumeHU": "",
+        "weightHU": "",
+        "packagingMats": ""
+      }
+    ]
+  }
+}
